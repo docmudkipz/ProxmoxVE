@@ -20,6 +20,7 @@ $STD apt-get install -y \
   sudo \
   mc \
   ca-certificates \
+  curl  \
   gnupg \
   make \
   g++ \
