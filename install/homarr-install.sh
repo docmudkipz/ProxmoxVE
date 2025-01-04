@@ -13,13 +13,13 @@ verb_ip6
 catch_errors
 setting_up_container
 network_check
-$STD apt-get install -y curl
 update_os
 
 msg_info "Installing Dependencies"
 
 $STD apt-get install -y \
   sudo \
+  curl  \
   mc \
   ca-certificates \
   gnupg \
